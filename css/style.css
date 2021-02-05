@@ -1,5 +1,5 @@
 body {
-  font: Times New Roman, sans-serif;
+  font-family: "Times New Roman", Times, serif;
   background-color: #000000;
   color: #ffffff;
 }
@@ -17,13 +17,10 @@ h2 {
 
 p {
   font: 24px;
-  padding-top:
+  padding-top: 15px;
 }
 
 img {
-  <!-- All images are on their own line -->
-  <!-- All images are centered -->
-  <!-- All images are 550px wide with proper aspect ratio (they are not warped or stretched) -->
   position: static;
   width: 550px;
   height: auto;
@@ -32,7 +29,6 @@ img {
 }
 
 div {
-  <!-- divs must be at least 150px tall (but will automatically be taller if needed) with 25px padding on all sides -->
   min-height: 150px;
   padding: 25px;
 }
@@ -53,7 +49,6 @@ div {
   color: black;
   filter: drop-shadow(5px 5px 4px #c7e2c7);
 }
-
 
 #green {
   background-color: #008000;
