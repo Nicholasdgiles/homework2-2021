@@ -48,7 +48,12 @@ img {
   text-align: right;
 }
 
-#yellow p, h2 {
+#yellow p {
+  color: black;
+  filter: drop-shadow(5px 5px 4px #c7e2c7);
+}
+
+#yellow h2 {
   color: black;
   filter: drop-shadow(5px 5px 4px #c7e2c7);
 }
