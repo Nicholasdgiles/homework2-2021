@@ -1,0 +1,66 @@
+body {
+  font: Times New Roman, sans-serif;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+h1 {
+  font-size: 64px;
+  text-align: center;
+  padding: 10px;
+}
+
+h2 {
+  font-size: 32px;
+  text-shadow: 4px 4px 2px #808080;
+}
+
+p {
+  font: 24px;
+  padding-top:
+}
+
+img {
+  <!-- All images are on their own line -->
+  <!-- All images are centered -->
+  <!-- All images are 550px wide with proper aspect ratio (they are not warped or stretched) -->
+  position: static;
+  width: 550px;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
+
+div {
+  <!-- divs must be at least 150px tall (but will automatically be taller if needed) with 25px padding on all sides -->
+  min-height: 150px;
+  padding: 25px;
+}
+
+#red {
+  background-color: #eb3223;
+  text-align: right;
+}
+
+#blue {
+  background-color: #0026f5;
+  text-align: left;
+}
+
+#yellow {
+  background-color: #fffd55;
+  text-align: right;
+  color: black;
+  filter: drop-shadow(5px 5px 4px #c7e2c7);
+}
+
+
+#green {
+  background-color: #008000;
+  text-align: left;
+}
+
+footer {
+  text-align: center;
+  padding: 0 10px 10px 0;
+}
